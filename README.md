@@ -138,34 +138,34 @@ print(generate_response("Tell me a joke."))
 print(generate_response("What is the capital of France?"))
 print(generate_response("How do I fine-tune a language model?"))
 
-Evaluation
+##Evaluation
 
-Performance
+**Performance**
 
 Model Training Time
 Hardware Used: 4th Generation Intel® Xeon® Scalable processors
 Training Time: Specific results will vary based on model size and dataset.
 
-Classification Performance
+**Classification Performance**
 Classified Well: Simple and direct queries such as greetings, weather information, and factual questions.
 Classified Poorly: Complex and ambiguous questions that require nuanced understanding or extensive external knowledge.
 
-Analysis
+**Analysis**
 The model performed well on straightforward inputs due to the rich and diverse training data from the Alpaca Dataset. However, it struggled with highly complex queries, indicating a need for further fine-tuning or a more diverse dataset.
 
-Problem Solving
+**Problem Solving**
 One issue encountered was the model’s occasional generation of irrelevant or repetitive responses. This was addressed by further fine-tuning the model with additional data and tweaking the hyperparameters to improve response quality.
 
-Conclusion
+**Conclusion**
 This project demonstrates the feasibility of fine-tuning a large language model to create a custom chatbot using Intel's advanced hardware and software tools. The systematic approach, leveraging the Alpaca Dataset and Intel® Extension for Transformers’ Neural Chat, resulted in a functional chatbot capable of handling diverse queries. Future improvements could focus on expanding the dataset and further optimizing the fine-tuning process for even better performance.
 
-References
+**References**
 Intel Extension for Transformers - Neural Chat
 Alpaca Dataset from Stanford University
 Intel Developer Cloud
 Intel AI Tools
 
-Acknowledgements
+**Acknowledgements**
 Thank you to all team members and mentors who guided and supported this project.
 
 This `README.md` file provides a detailed overview of your project, including installation instructions, implementation steps, and evaluation metrics. It will guide users through setting up the environment, running the code, and understanding the results.
