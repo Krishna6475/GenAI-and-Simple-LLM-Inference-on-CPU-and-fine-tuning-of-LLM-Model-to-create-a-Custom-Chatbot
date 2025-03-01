@@ -137,6 +137,7 @@ print(generate_response("What is the weather like today?"))
 print(generate_response("Tell me a joke."))
 print(generate_response("What is the capital of France?"))
 print(generate_response("How do I fine-tune a language model?"))
+```
 
 ##Evaluation
 
